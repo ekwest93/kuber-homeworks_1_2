@@ -27,6 +27,8 @@
 1. Создать манифест (yaml-конфигурацию) Pod.
 2. Использовать image - gcr.io/kubernetes-e2e-test-images/echoserver:2.2.
 3. Подключиться локально к Pod с помощью `kubectl port-forward` и вывести значение (curl или в браузере).
+<img width="776" height="88" alt="image" src="https://github.com/user-attachments/assets/aa5c6ec5-dcaf-433c-991d-8de834bbeb91" />
+<img width="763" height="765" alt="image" src="https://github.com/user-attachments/assets/02a10055-34ab-4cf4-9804-cb17d838ae64" />
 
 
 ------
@@ -37,10 +39,16 @@
 2. Использовать image — gcr.io/kubernetes-e2e-test-images/echoserver:2.2.
 3. Создать Service с именем netology-svc и подключить к netology-web.
 4. Подключиться локально к Service с помощью `kubectl port-forward` и вывести значение (curl или в браузере).
+<img width="1032" height="179" alt="image" src="https://github.com/user-attachments/assets/7712cd1c-e411-4c3e-8d99-7b637c8fd379" />
    
+<img width="971" height="778" alt="image" src="https://github.com/user-attachments/assets/e80ee912-12cb-4be4-b8e6-d4b750d69ba3" />
 
 
+### Файлы манифестов
 
+- [`hello-world-pod.yaml`](./hello-world-pod.yaml) — Pod для первого задания
+- [`netology-web-pod.yaml`](./netology-web-pod.yaml) — Pod для второго задания
+- [`netology-svc-service.yaml`](./netology-svc-service.yaml) — Service для второго задания
 
 ------
 
